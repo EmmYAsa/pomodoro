@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(180deg, #62a1ff 0%, #698fff 20%, #6f7dff 40%, #756bff 60%, #7b58ff 80%);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container {
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #d8defc;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+h1 {
+    font-size: 30px;
+    color: #62A1FF;
+    font-family: "Deja Vu Sans";
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 400px;
+    margin: auto;
+    background-color: #62A1FF;
+    height: 1px;
+
+    margin-bottom: 30px;
+}
+
+.countdown_block {
+    width: 250px;
+    height: 90px;
+    opacity: 0.212;
+    border-radius: 20px;
+    background-color: #8146ff;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown_block p {
+    font-size: 50px;
+    color: #fff;
+}
+
+.btn_start {
+    width: 100px;
+    height: 40px;
+
+    color: #fff;
+    border: none;
+    background-color: #62A1FF;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.btn_start:hover {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.grid_box {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    justify-items: center;
+}
+
+.grid_box p {
+    color: #62A1FF;
+}
+
+.grid_box input{
+    width: 150px;
+    height: 50px;
+
+    opacity: 0.212;
+    border-radius: 5px;
+    background-color: #8146ff;
+    border: none;
+
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+} */

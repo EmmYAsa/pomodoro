@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMODORO</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="main_container">
+        <h1>POMODORO CLOCK</h1>
+        <hr>
+
+        <div class="countdown_block">
+            <p class="minute">25</p>
+            <p>:</p>
+            <p class="second">00</p>
+        </div>
+
+        <button class="btn_start">START</button>
+
+        <div class="grid_box">
+            <p>Worck time</p>
+            <p>Rest time</p>
+
+            <div class="worck_time_input">
+                <input type="number" min="20" max="45" value="25" step="5">
+            </div>
+
+            <div class="rest_time_input">
+                <input type="number" min="5" max="15" value="5" step="5">
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
